@@ -17,7 +17,7 @@
         <br />
         <br />
         <div style="background-color:whitesmoke; height: 30px;">
-            <asp:Label ID="lblLogin" runat="server" Text="Employee Logins" ForeColor="#082E41" Font-Size="X-Large" Font-Bold="True"></asp:Label>
+            <asp:Label ID="lblLogin" runat="server" Text="Employee Login" ForeColor="#082E41" Font-Size="X-Large" Font-Bold="True"></asp:Label>
         </div>
         <br />
         <br />

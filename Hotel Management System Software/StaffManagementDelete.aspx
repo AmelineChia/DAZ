@@ -8,15 +8,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div style="background-image:url('/Image/Background1.jpg'); margin-left:auto; text-align:center; height: 1599px;">
-    <br />
+    <div style="background-image:url('/Image/Background1.jpg'); margin-left:auto; text-align:center; height: 1620px;">
+        <br />
         <br />
         <br />
         <div style="float:left; width:116px; height: 26px; margin-left:1368px;">
             <asp:Label ID="lblWelcomeTitle" runat="server" Text="Welcome: " Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
         </div>
         <div style="float:left; width: 120px; height: 25px">
-            <asp:Label ID="lblUserType" runat="server" Text="Administrator" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
+            <asp:Label ID="lblUserType" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
         </div> 
          <div style="float:left; width: 167px; height: 25px">
             <asp:Label ID="lblStaffName" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
@@ -31,7 +31,7 @@
         </div>
         <br />
         <br /> 
-        <div style="float:left; width: 220px; height: 25px; margin-left: 350px">
+        <div style="float:left; width: 220px; height: 25px; margin-left: 330px">
              <asp:Label ID="lblSearch" runat="server" Text="Search" ForeColor="WhiteSmoke" Font-Size="X-Large" Font-Bold="true"></asp:Label>   
         </div>
         <div style="float:left; width: 140px; height: 25px">

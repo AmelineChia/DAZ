@@ -211,7 +211,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
-    <Content Include="staffManagementCreate.aspx" />
+    <Content Include="StaffManagementCreate.aspx" />
     <Content Include="StaffManagementDelete.aspx" />
     <Content Include="StaffManagementMainPage.aspx" />
     <Content Include="StaffManagementUpdate.aspx" />
@@ -367,12 +367,12 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="staffManagementCreate.aspx.cs">
-      <DependentUpon>staffManagementCreate.aspx</DependentUpon>
+    <Compile Include="StaffManagementCreate.aspx.cs">
+      <DependentUpon>StaffManagementCreate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="staffManagementCreate.aspx.designer.cs">
-      <DependentUpon>staffManagementCreate.aspx</DependentUpon>
+    <Compile Include="StaffManagementCreate.aspx.designer.cs">
+      <DependentUpon>StaffManagementCreate.aspx</DependentUpon>
     </Compile>
     <Compile Include="StaffManagementDelete.aspx.cs">
       <DependentUpon>StaffManagementDelete.aspx</DependentUpon>

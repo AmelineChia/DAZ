@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="staffManagementCreate.aspx.cs" Inherits="Hotel_Management_System_Software.staffManagement" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StaffManagementDelete.aspx.cs" Inherits="Hotel_Management_System_Software.StaffManagementDelete" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div style="background-image:url('/Image/Background1.jpg'); margin-left:auto; text-align:center; height: 1713px;">
+    <div style="background-image:url('/Image/Background1.jpg'); margin-left:auto; text-align:center; height: 1620px;">
         <br />
         <br />
         <br />
@@ -16,23 +16,29 @@
             <asp:Label ID="lblWelcomeTitle" runat="server" Text="Welcome: " Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
         </div>
         <div style="float:left; width: 120px; height: 25px">
-            <asp:Label ID="lblUserTYpe" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
+            <asp:Label ID="lblUserType" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
         </div> 
          <div style="float:left; width: 167px; height: 25px">
             <asp:Label ID="lblStaffName" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
         </div> 
         <br />
         <br />
-        <br />
         <asp:Label ID="lblTitle" runat="server" Text="Delonix Regia Hotel Management System" Font-Size ="XX-Large" Font-Bold="true" ForeColor="WhiteSmoke"></asp:Label>
         <br />
         <br />
-        <br />
         <div style="background-color:whitesmoke; height: 30px;">
-            <asp:Label ID="lblStaffDetails" runat="server" Text="Staff Details" ForeColor="#082E41" Font-Size="X-Large" Font-Bold="True"></asp:Label>
+            <asp:Label ID="lblMainPage" runat="server" Text="Staff Details" ForeColor="#082E41" Font-Size="X-Large" Font-Bold="True"></asp:Label>
         </div>
         <br />
         <br /> 
+        <div style="float:left; width: 220px; height: 25px; margin-left: 330px">
+             <asp:Label ID="lblSearch" runat="server" Text="Search" ForeColor="WhiteSmoke" Font-Size="X-Large" Font-Bold="true"></asp:Label>   
+        </div>
+        <div style="float:left; width: 140px; height: 25px">
+             <asp:TextBox ID="tbxSearch" runat="server" Font-Size="Medium" Width="772px" Height="25px"></asp:TextBox>
+        </div>
+        <br />
+        <br />
         <div style="float:left; width:311px; height:25px; margin-left: 750px">
             <asp:Label ID="Label45" runat="server" Text="Please enter Staff First name" ForeColor="#ff0000" Font-Bold="true" Font-Size="Large"></asp:Label>
         </div>
@@ -125,7 +131,6 @@
         <br />
         <br />
         <br />
-        <br />
         <div style="background-color:whitesmoke; height: 30px;">
             <asp:Label ID="lblStaffManagement" runat="server" Text="Staff Management" ForeColor="#082E41" Font-Size="X-Large" Font-Bold="True"></asp:Label>
         </div>
@@ -137,7 +142,7 @@
         <br />
         <br />
         <div style="float:left; width:193px; height: 25px; margin-left:530px">
-            <asp:Label ID="lblUserType" runat="server" Text="User Type" ForeColor="WhiteSmoke" Font-Size="Large" Font-Bold="true"></asp:Label>
+            <asp:Label ID="Label7" runat="server" Text="User Type" ForeColor="WhiteSmoke" Font-Size="Large" Font-Bold="true"></asp:Label>
         </div>
         <div style="float:left; width:159px; height:25px">
             <asp:DropDownList ID="ddlUserType" runat="server" Height="24px" Width="376px" Font-Size="Medium"></asp:DropDownList>
@@ -145,7 +150,7 @@
         <br />
         <br />
         <div style="float:left; width:311px; height:25px; margin-left: 750px">
-            <asp:Label ID="Label7" runat="server" Text="Please select the staff duty type" ForeColor="#ff0000" Font-Bold="true" Font-Size="Large"></asp:Label>
+            <asp:Label ID="Label8" runat="server" Text="Please select the staff duty type" ForeColor="#ff0000" Font-Bold="true" Font-Size="Large"></asp:Label>
         </div>
         <br />
         <br />
@@ -158,7 +163,7 @@
         <br />
         <br />
         <div style="float:left; width:311px; height:25px; margin-left: 750px">
-            <asp:Label ID="Label8" runat="server" Text="Please select the staff working shift" ForeColor="#ff0000" Font-Bold="true" Font-Size="Large"></asp:Label>
+            <asp:Label ID="Label9" runat="server" Text="Please select the staff working shift" ForeColor="#ff0000" Font-Bold="true" Font-Size="Large"></asp:Label>
         </div>
         <br />
         <br />
@@ -177,7 +182,7 @@
         <br />
         <br />
         <div style="float:left; width: 651px; height: 25px; margin-left: 560px">
-            <asp:Button ID="Button1" runat="server" Text="Save" Font-Size="Large" Font-Bold="true" BorderStyle="Solid" Width="450px" Height="38px" />
+            <asp:Button ID="Button1" runat="server" Text="Create" Font-Size="Large" Font-Bold="true" BorderStyle="Solid" Width="450px" Height="38px" />
         </div>
         <br />
         <br />

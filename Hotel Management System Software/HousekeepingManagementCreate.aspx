@@ -34,12 +34,12 @@
         <br />
         <br /> 
         <br />
-        <div style="float:left; width:311px; height:25px; margin-left: 750px">
+        <div style="float:left; width:311px; height:25px; margin-left: 730px">
             <asp:Label ID="Label45" runat="server" Text="Please enter housekeeping duty" ForeColor="#ff0000" Font-Bold="true" Font-Size="Large"></asp:Label>
         </div>
         <br />
         <br />
-        <div style="float:left; width: 211px; height: 25px; margin-left: 510px">
+        <div style="float:left; width: 211px; height: 25px; margin-left: 490px">
              <asp:Label ID="lblStaffFirstName" runat="server" Text="New Houskeeping Duty" ForeColor="WhiteSmoke" Font-Size="Large" Font-Bold="true"></asp:Label>   
         </div>
         <div style="float:left; width: 140px; height: 25px">
@@ -47,12 +47,12 @@
         </div>
         <br />
         <br />
-        <div style="float:left; width:418px; height:25px; margin-left: 700px">
+        <div style="float:left; width:418px; height:25px; margin-left: 680px">
             <asp:Label ID="Label43" runat="server" Text="Please enter new housekeeping description" ForeColor="#ff0000" Font-Bold="true" Font-Size="Large"></asp:Label>
         </div>
         <br />
         <br />
-        <div style="float:left; width: 211px; height: 25px; margin-left: 510px">
+        <div style="float:left; width: 211px; height: 25px; margin-left: 490px">
              <asp:Label ID="lblNewHousekeepingDescription" runat="server" Text="New Houskeeping Description" ForeColor="WhiteSmoke" Font-Size="Large" Font-Bold="true"></asp:Label>   
         </div>
         <div style="float:left; width: 140px; height: 25px">

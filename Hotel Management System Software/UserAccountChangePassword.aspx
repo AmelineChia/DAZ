@@ -74,13 +74,13 @@
         <br />
         <br />
         <br />
-        <div style="float:left; width: 651px; height: 25px; margin-left: 580px">
+        <div style="float:left; width: 651px; height: 25px; margin-left: 570px">
             <asp:Button ID="Button3" runat="server" Text="Change Password" Font-Size="Large" Font-Bold="true" BorderStyle="Solid" Width="450px" Height="38px" />
         </div>
         <br />
         <br />
         <br />
-        <div style="float:left; width: 651px; height: 25px; margin-left: 580px">
+        <div style="float:left; width: 651px; height: 25px; margin-left: 570px">
             <asp:Button ID="Button2" runat="server" Text="Back" Font-Size="Large" Font-Bold="true" BorderStyle="Solid" Width="450px" Height="38px" />
         </div>
         <br />

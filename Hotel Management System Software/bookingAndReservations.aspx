@@ -12,6 +12,18 @@
         <br />
         <br />
         <br />
+        <div style="float:left; width:116px; height: 26px; margin-left:1368px;">
+            <asp:Label ID="lblWelcomeTitle" runat="server" Text="Welcome: " Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
+        </div>
+        <div style="float:left; width: 120px; height: 25px">
+            <asp:Label ID="lblUserType" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
+        </div> 
+         <div style="float:left; width: 167px; height: 25px">
+            <asp:Label ID="lblStaffName" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
+        </div> 
+        <br />
+        <br />
+        <br />
         <asp:Label ID="lblTitle" runat="server" Text="Delonix Regia Hotel Management System" Font-Size ="XX-Large" Font-Bold="true" ForeColor="WhiteSmoke"></asp:Label>
         <br />
         <br />

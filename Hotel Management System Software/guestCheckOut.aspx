@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="guestCheckOut.aspx.cs" Inherits="Hotel_Management_System_Software.guestCheckOut" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="guestCheckOut.aspx.cs" Inherits="Hotel_Management_System_Software.Login" %>
 
 <!DOCTYPE html>
 

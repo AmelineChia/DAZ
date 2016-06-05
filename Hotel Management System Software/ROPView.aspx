@@ -25,7 +25,8 @@
             <br />
             <div style="background-color: whitesmoke; height: 38px;">
                 <asp:Label ID="lblMainPage" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="#082E41" Text="Room Occupancy Report "></asp:Label>
-                <asp:Table ID="Table1" runat="server" Height="222px" Width="1275px">
-                </asp:Table>
+                <br />
+                <br />
+                <br />
             </div>
             

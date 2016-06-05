@@ -44,6 +44,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -177,6 +178,7 @@
     <Content Include="ReportingModuleMainPage.aspx" />
     <Content Include="RoomOccupancy.aspx" />
     <Content Include="ROPView.aspx" />
+    <Content Include="RSPView.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -338,6 +340,13 @@
     </Compile>
     <Compile Include="ROPView.aspx.designer.cs">
       <DependentUpon>ROPView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RSPView.aspx.cs">
+      <DependentUpon>RSPView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RSPView.aspx.designer.cs">
+      <DependentUpon>RSPView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

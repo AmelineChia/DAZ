@@ -12,13 +12,16 @@
         <br />
         <br />
         <br />
+        <br />
         <asp:Label ID="lblTitle" runat="server" Text="Delonix Regia Hotel Management System" Font-Size ="XX-Large" Font-Bold="true" ForeColor="WhiteSmoke"></asp:Label>
+        <br />
         <br />
         <br />
         <br />
         <div style="background-color:whitesmoke; height: 30px;">
             <asp:Label ID="lblLogin" runat="server" Text="Employee Login" ForeColor="#082E41" Font-Size="X-Large" Font-Bold="True"></asp:Label>
         </div>
+        <br />
         <br />
         <br />
         <asp:Label ID="Label1" runat="server" Text="Welcome to Delonix Regia Hotel Management System" Font-Size ="Large" Font-Bold="true" ForeColor="WhiteSmoke"></asp:Label>
@@ -58,7 +61,6 @@
         <br />
         <br />
         <asp:Label ID="Label4" runat="server" Text="Forgot your Username/Password? Contact the Administrative team to change it" Font-Size ="Large" Font-Bold="true" ForeColor="WhiteSmoke"></asp:Label>
-        <br />
         <br />
         <br />
         <div style="float:left; width: 651px; height: 25px; margin-left: 570px">

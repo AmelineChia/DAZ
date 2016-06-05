@@ -156,6 +156,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="guestCheckOut.aspx" />
     <Content Include="Image\Background1.jpg" />
     <Content Include="Image\Background2.jpg" />
     <Content Include="Image\BedRoom1.jpg" />
@@ -166,6 +167,7 @@
     <Content Include="Image\Logo image 2.jpg" />
     <Content Include="bookingAndReservations.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="mainPage.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -290,12 +292,26 @@
     <Compile Include="bookingAndReservations.aspx.designer.cs">
       <DependentUpon>bookingAndReservations.aspx</DependentUpon>
     </Compile>
+    <Compile Include="guestCheckOut.aspx.cs">
+      <DependentUpon>guestCheckOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guestCheckOut.aspx.designer.cs">
+      <DependentUpon>guestCheckOut.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mainPage.aspx.cs">
+      <DependentUpon>mainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mainPage.aspx.designer.cs">
+      <DependentUpon>mainPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

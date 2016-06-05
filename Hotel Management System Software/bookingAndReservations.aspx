@@ -8,8 +8,18 @@
     </head>
 <body>
     <form id="form1" runat="server">
-    <div style="background-image:url('/Image/Background1.jpg'); margin-left:auto; text-align:center; height: 1713px;">
+    <div style="background-image:url('/Image/Background1.jpg'); margin-left:auto; text-align:center; height: 1702px; margin-bottom: 0px;">
         <br />
+        <br />
+        <div style="float:left; width:116px; height: 26px; margin-left:1368px;">
+            <asp:Label ID="lblWelcomeTitle" runat="server" Text="Welcome: " Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
+        </div>
+        <div style="float:left; width: 120px; height: 25px">
+            <asp:Label ID="lblUserType" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
+        </div> 
+         <div style="float:left; width: 167px; height: 25px">
+            <asp:Label ID="lblStaffName" runat="server" Text="" Font-Bold="true" Font-Size="X-Large" ForeColor="WhiteSmoke"></asp:Label>
+        </div> 
         <br />
         <br />
         <asp:Label ID="lblTitle" runat="server" Text="Delonix Regia Hotel Management System" Font-Size ="XX-Large" Font-Bold="true" ForeColor="WhiteSmoke"></asp:Label>
@@ -239,7 +249,6 @@
             <asp:DropDownList ID="ddlDateOfExpiry" runat="server" Height="21px" Width="127px" Font-Size="Medium"></asp:DropDownList>
         </div>
          <br />
-        <br />
         <br />
         <br />
         <div style="background-color:whitesmoke; height:30px">

@@ -7,11 +7,9 @@
     <title></title>
 </head>
 <body>
-    <%@ Page AutoEventWireup="true" CodeBehind="mainPage.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
+    <%@ Page AutoEventWireup="true" CodeBehind="ReportingModuleMainPage.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
 
 <!DOCTYPE html>
-
-    <title></title>
     <form id="form2" runat="server">
         <div style="background-image: url('/Image/Background1.jpg'); margin-left: auto; text-align: center; height: 848px;">
             <br />
@@ -45,7 +43,7 @@
             <br />
             <br />
             <div style="float:left; width: 651px; height: 25px; margin-left: 560px">
-                <asp:Button ID="ButtonLATGARR" runat="server" BorderStyle="Solid" Font-Bold="true" Font-Size="Large" Height="38px" Text="List All The Guests in a Room Report" Width="513px" />
+                <asp:Button ID="ButtonLATGARR" runat="server" BorderStyle="Solid" Font-Bold="true" Font-Size="Large" Height="38px" Text="List All The Guests in a Room Report" Width="513px" OnClick="ButtonLATGARR_Click" />
             </div>
             <br />
             <br />

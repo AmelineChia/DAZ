@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ReportingModuleMainPage.aspx.cs" Inherits="Hotel_Management_System_Software.ReportingModuleMainPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ROPView.aspx.cs" Inherits="Hotel_Management_System_Software.ROPView" %>
 
 <!DOCTYPE html>
 
@@ -7,11 +7,9 @@
     <title></title>
 </head>
 <body>
-    <%@ Page AutoEventWireup="true" CodeBehind="mainPage.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
+    <%@ Page AutoEventWireup="true" CodeBehind="ROPView.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
 
 <!DOCTYPE html>
-
-    <title></title>
     <form id="form2" runat="server">
         <div style="background-image: url('/Image/Background1.jpg'); margin-left: auto; text-align: center; height: 848px;">
             <br />
@@ -29,4 +27,8 @@
                 <br />
                 <br />
             </div>
+            </div>
+        </form>
+    </body>
+    </html>
             

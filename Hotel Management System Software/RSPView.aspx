@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ReportingModuleMainPage.aspx.cs" Inherits="Hotel_Management_System_Software.ReportingModuleMainPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RSPView.aspx.cs" Inherits="Hotel_Management_System_Software.RSPView" %>
 
 <%@ Register assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" namespace="System.Web.UI.DataVisualization.Charting" tagprefix="asp" %>
 
@@ -28,11 +28,9 @@
     </style>
 </head>
 <body>
-    <%@ Page AutoEventWireup="true" CodeBehind="mainPage.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
+    <%@ Page AutoEventWireup="true" CodeBehind="RSPView.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
 
 <!DOCTYPE html>
-
-    <title></title>
     <form id="form2" runat="server">
         <div style="background-image: url('/Image/Background1.jpg'); margin-left: auto; text-align: center; height: 848px;">
             <br />
@@ -50,24 +48,16 @@
                 <br />
                 <br />
                 <br />
-                <table style="width:100%;">
-                    <tr>
-                        <div style="float:left; width: 651px; height: 25px; margin-left: 560px; color= : WhiteSmoke">
-                        <td class="auto-style3">Room Number</td>
-                        <td class="auto-style4">Room Status Type </td>
-                        <td class="auto-style5">Date</td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style3"></td>
-                        <td class="auto-style4"></td>
-                        <td class="auto-style5"></td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style1">&nbsp;</td>
-                        <td class="auto-style2">&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                </table>
+                <div>
+                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" Width="892px">
+                        <Columns>
+                            <asp:BoundField ControlStyle-ForeColor="WhiteSmoke" DataField="RoomNumber" FooterStyle-ForeColor="WhiteSmoke" HeaderStyle-ForeColor="WhiteSmoke" HeaderText="Room Number" />
+                            <asp:BoundField ControlStyle-ForeColor="WhiteSmoke" DataField="RoomStatusType" FooterStyle-ForeColor="WhiteSmoke" HeaderStyle-ForeColor="WhiteSmoke" HeaderText="Room Status" />
+                            <asp:BoundField ControlStyle-ForeColor="WhiteSmoke" DataField="Date" FooterStyle-ForeColor="WhiteSmoke" HeaderStyle-ForeColor="WhiteSmoke" HeaderText="Date" />
+                            <asp:BoundField ControlStyle-ForeColor="WhiteSmoke" DataField="Comments" FooterStyle-ForeColor="WhiteSmoke" HeaderStyle-ForeColor="WhiteSmoke" HeaderText="Comments" />
+                        </Columns>
+                    </asp:GridView>
+                </div>
                 <br />
                 <br />
                 <br />
@@ -79,4 +69,8 @@
                 <br />
                 <asp:Button ID="ButtonBTMM2" runat="server" OnClick="Button1_Click" Text="Back To Main Menu" Width="453px" />
             </div>
+            </div>
+        </form>
+    </body>
+    </html>
             

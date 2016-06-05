@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ReportingModuleMainPage.aspx.cs" Inherits="Hotel_Management_System_Software.ReportingModuleMainPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RoomOccupancy.aspx.cs" Inherits="Hotel_Management_System_Software.RoomOccupany" %>
 
 <!DOCTYPE html>
 
@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    <%@ Page AutoEventWireup="true" CodeBehind="mainPage.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
+    <%@ Page AutoEventWireup="true" CodeBehind="RoomOccupancy.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
 
 <!DOCTYPE html>
 

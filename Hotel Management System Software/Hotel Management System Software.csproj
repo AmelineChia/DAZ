@@ -171,6 +171,7 @@
     <Content Include="Image\Logo image 1.jpg" />
     <Content Include="Image\Logo image 2.jpg" />
     <Content Include="bookingAndReservations.aspx" />
+    <Content Include="ListAllGuestOneRoom.aspx" />
     <Content Include="login.aspx" />
     <Content Include="AdministratorMainPage.aspx" />
     <Content Include="ManagementUserMainPage.aspx" />
@@ -334,6 +335,13 @@
     </Compile>
     <Compile Include="HousekeepingManagementUpdate.aspx.designer.cs">
       <DependentUpon>HousekeepingManagementUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListAllGuestOneRoom.aspx.cs">
+      <DependentUpon>ListAllGuestOneRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListAllGuestOneRoom.aspx.designer.cs">
+      <DependentUpon>ListAllGuestOneRoom.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>

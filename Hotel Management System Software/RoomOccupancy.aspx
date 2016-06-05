@@ -11,7 +11,6 @@
 
 <!DOCTYPE html>
 
-    <title></title>
     <form id="form2" runat="server">
         <div style="background-image: url('/Image/Background1.jpg'); margin-left: auto; text-align: center; height: 848px;">
             <br />
@@ -47,6 +46,10 @@
             <br />
             <br />
             <br />
-            <br />
             <asp:Button ID="ButtonRTMM1" runat="server" Text="Back To Main Menu" Width="453px" />
+            </div>
+        </form>
+    </body>
+    </html>
+
 

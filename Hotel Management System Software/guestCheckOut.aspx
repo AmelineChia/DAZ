@@ -22,17 +22,16 @@
         </div>
         <br />
         <br /> 
-        <br />
-        <div style="float:left; width: 220px; height: 25px; margin-left: 350px">
-             <asp:Label ID="lblSearch" runat="server" Text="Search" ForeColor="WhiteSmoke" Font-Size="X-Large" Font-Bold="true"></asp:Label>   
-        </div>
-        <div style="float:left; width: 140px; height: 25px">
-             <asp:TextBox ID="tbxSearch" runat="server" Font-Size="Medium" Width="772px" Height="25px"></asp:TextBox>
-        </div>
+        <p style="float:left; height: 25px; width: 300px; margin-left: 400px;">
+            <asp:Label ID="lblSearch" runat="server" Text="Search" ForeColor="WhiteSmoke" Font-Size="X-Large" Font-Bold="true"></asp:Label>
+            &nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="TextBoxTest1" runat="server" Font-Names="Arial" Font-Size="Medium"></asp:TextBox>
+        </p>
         <br />
         <br />
-        <br />
-        <br />
+        <p style="float:left; height: 25px; width:  300px; margin-left:400px;">
+            <asp:Label ID="lblRetrieve" runat="server" ForeColor="WhiteSmoke" Font-Size="Large">[GuestInfo]</asp:Label>
+        </p>
 
     </div>
     </form>

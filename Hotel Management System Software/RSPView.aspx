@@ -28,23 +28,21 @@
     </style>
 </head>
 <body>
-    <%@ Page AutoEventWireup="true" CodeBehind="RSPView.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
-
 <!DOCTYPE html>
-    <form id="form2" runat="server">
+    <form id="forma" runat="server">
         <div style="background-image: url('/Image/Background1.jpg'); margin-left: auto; text-align: center; height: 848px;">
             <br />
             <br />
             <br />
             <br />
 
-            <asp:Label ID="lblTitle" runat="server" Font-Bold="true" Font-Size="XX-Large" ForeColor="WhiteSmoke" Text="Delonix Regia Hotel Management System"></asp:Label>
+            <asp:Label ID="lblRSPView2" runat="server" Font-Bold="true" Font-Size="XX-Large" ForeColor="WhiteSmoke" Text="Delonix Regia Hotel Management System"></asp:Label>
             <br />
             <br />
             <br />
             <br />
             <div style="background-color: whitesmoke; height: 38px;">
-                <asp:Label ID="lblMainPage" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="#082E41" Text="Room Status Report "></asp:Label>
+                <asp:Label ID="lblRSPView" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="#082E41" Text="Room Status Report "></asp:Label>
                 <br />
                 <br />
                 <br />
@@ -67,7 +65,7 @@
                 <br />
                 <br />
                 <br />
-                <asp:Button ID="ButtonBTMM2" runat="server" OnClick="Button1_Click" Text="Back To Main Menu" Width="453px" />
+                <asp:Button ID="ButtonBTMM2" runat="server" Text="Back To Main Menu" Width="453px" />
             </div>
             </div>
         </form>

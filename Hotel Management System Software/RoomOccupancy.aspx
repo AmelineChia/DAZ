@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RoomOccupancy.aspx.cs" Inherits="Hotel_Management_System_Software.RoomOccupany" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RoomOccupancy.aspx.cs" Inherits="Hotel_Management_System_Software.RoomOccupancy" %>
 
 <!DOCTYPE html>
 
@@ -7,17 +7,15 @@
     <title></title>
 </head>
 <body>
-    <%@ Page AutoEventWireup="true" CodeBehind="RoomOccupancy.aspx.cs" Inherits="Hotel_Management_System_Software.MainPage" Language="C#" %>
-
 <!DOCTYPE html>
 
-    <form id="form2" runat="server">
+    <form id="formd" runat="server">
         <div style="background-image: url('/Image/Background1.jpg'); margin-left: auto; text-align: center; height: 848px;">
             <br />
             <br />
             <br />
             <br />
-            <asp:Label ID="lblTitle" runat="server" Font-Bold="true" Font-Size="XX-Large" ForeColor="WhiteSmoke" Text="Delonix Regia Hotel Management System"></asp:Label>
+            <asp:Label ID="lblROTitle" runat="server" Font-Bold="true" Font-Size="XX-Large" ForeColor="WhiteSmoke" Text="Delonix Regia Hotel Management System"></asp:Label>
             <br />
             <br />
             <br />

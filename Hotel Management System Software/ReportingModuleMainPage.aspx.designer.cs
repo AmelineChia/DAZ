@@ -10,25 +10,25 @@
 namespace Hotel_Management_System_Software {
     
     
-    public partial class MainPage {
+    public partial class ReportingModuleMainPage {
         
         /// <summary>
-        /// form2 control.
+        /// forme control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
+        protected global::System.Web.UI.HtmlControls.HtmlForm forme;
         
         /// <summary>
-        /// lblTitle control.
+        /// lblRMMP1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTitle;
+        protected global::System.Web.UI.WebControls.Label lblRMMP1;
         
         /// <summary>
         /// lblRMMP control.
@@ -83,14 +83,5 @@ namespace Hotel_Management_System_Software {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonRTMM;
-        
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
     }
 }

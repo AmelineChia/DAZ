@@ -10,25 +10,25 @@
 namespace Hotel_Management_System_Software {
     
     
-    public partial class MainPage {
+    public partial class RoomOccupancy {
         
         /// <summary>
-        /// form2 control.
+        /// formd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formd;
         
         /// <summary>
-        /// lblTitle control.
+        /// lblROTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTitle;
+        protected global::System.Web.UI.WebControls.Label lblROTitle;
         
         /// <summary>
         /// lblROP control.

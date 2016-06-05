@@ -30,6 +30,11 @@ namespace Hotel_Management_System_Software
                 con.Close();
                 display();*/
         }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
         /*public void display()
         {
             con.Open();

@@ -29,10 +29,10 @@
             <asp:Label ID="lblRoomBooking" runat="server" Text="Room Booking" ForeColor="#082E41" Font-Size="X-Large" Font-Bold="True"></asp:Label>
         </div>
         <br />
-        <div style="float:left; width: 271px; height: 25px; margin-left: 320px">
-            <asp:Label ID="Label1" runat="server" Text="Please select room number" ForeColor="#ff0000" Font-Size="Large" Font-Bold="true"></asp:Label>
-        </div>
         <br />
+        <div style="float:left; width: 271px; height: 25px; margin-left: 320px">
+            <asp:Label ID="Label1" runat="server" Text="Please select guest booking date" ForeColor="#ff0000" Font-Size="Large" Font-Bold="true"></asp:Label>
+        </div>
         <br />
         <div style="float:left; width:166px; height: 25px; margin-left:180px">
             <asp:Label ID="lblRoomNumber" runat="server" Text="Room Number" Font-Size="Large" Font-Bold="true" ForeColor="WhiteSmoke"></asp:Label>

@@ -41,7 +41,7 @@
         <div style="float:none; height: 30px;">
             <asp:TextBox ID="TextBoxTest1" runat="server" Font-Names="Arial" Font-Size="Medium"></asp:TextBox>
             &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button1" runat="server" Text="SEARCH" Font-Names="Arial Black" Font-Size="Small" />
+            <asp:Button ID="btnSearch" runat="server" Text="SEARCH" Font-Names="Arial Black" Font-Size="Small" />
         </div>
         <br />
         <br />

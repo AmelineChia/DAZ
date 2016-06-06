@@ -21,53 +21,28 @@
             <br />
             <div style="background-color: whitesmoke; height: 38px;">
                 <asp:Label ID="lblRMMP" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="#082E41" Text="Reporting Module Main Page"></asp:Label>
+                <br />
+                <br />
+                <asp:Button ID="ButtonROP" runat="server" Height="54px" Text="Room Occupancy Report" Width="391px" OnClick="ButtonROP_Click" />
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="ButtonRSP" runat="server" Height="54px" style="margin-left: 0px" Text="Room Status Report" Width="391px" OnClick="ButtonRSP_Click" />
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="ButtonHR" runat="server" Height="54px" Text="HouseKeeping Report" Width="391px" OnClick="ButtonHR_Click" />
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="ButtonLATGARR" runat="server" Height="54px" Text="List All The Guests in a Room Report" Width="391px" OnClick="ButtonLATGARR_Click1" />
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="ButtonLATGIALLRR" runat="server" Height="54px" Text="List All The Guests in all Room Report" Width="391px" OnClick="ButtonLATGIALLRR_Click" />
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div style="float:left; width: 651px; height: 25px; margin-left: 560px">
-                <asp:Button ID="ButtonROP" runat="server" BorderStyle="Solid" Font-Bold="true" Font-Size="Large" Height="38px" Text="Room Occupancy Report" Width="450px" />
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div style="float:left;width:651px; height: 25px; margin-left: 560px">
-                <asp:Button ID="ButtonRSP" runat="server" BorderStyle="Solid" Font-Bold="true" Font-Size="Large" Height="38px" style="margin-left: 0px" Text="Room Status Report" Width="450px" />
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div style="float:left; width: 651px; height: 25px; margin-left: 560px">
-                <asp:Button ID="ButtonLATGARR" runat="server" BorderStyle="Solid" Font-Bold="true" Font-Size="Large" Height="38px" Text="List All The Guests in a Room Report" Width="513px" OnClick="ButtonLATGARR_Click" />
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div style="float:left;width:651px; height: 25px; margin-left: 560px">
-                <asp:Button ID="ButtonLATGIALLRR" runat="server" BorderStyle="Solid" Font-Bold="true" Font-Size="Large" Height="38px" Text="List All The Guests in all Room Report" Width="541px" />
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div style="float:left;width:651px; height: 25px; margin-left: 560px">
-            </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div style="float:left;width:651px; height: 25px; margin-left: 560px">
-                <asp:Button ID="ButtonRTMM" runat="server" BorderStyle="Solid" Font-Bold="true" Font-Size="Large" Height="38px" Text="Return to Main Menu" Width="450px" />
-            </div>
-        </div>
-    </form>
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+        </form>
+        </body>
+    </html>
+            

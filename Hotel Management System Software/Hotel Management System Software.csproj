@@ -155,9 +155,20 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="DeleteGuestProfile.aspx" />
+    <Content Include="DeleteHousekeepingReport.aspx" />
+    <Content Include="DeleteListofGuestAllRoom.aspx" />
+    <Content Include="DeleteROReport.aspx" />
+    <Content Include="DeleteStatusReport.aspx" />
+    <Content Include="EditGuestProfile.aspx" />
+    <Content Include="EditHousekeepingReport.aspx" />
+    <Content Include="EditListOfGuestAllRoom.aspx" />
+    <Content Include="EditROReport.aspx" />
+    <Content Include="EditStatusReport.aspx" />
     <Content Include="EndUserMainPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="guestCheckOut.aspx" />
+    <Content Include="Housekeeping.aspx" />
     <Content Include="HousekeepingManagementCreate.aspx" />
     <Content Include="HousekeepingManagementDelete.aspx" />
     <Content Include="HousekeepingManagementMainPage.aspx" />
@@ -171,6 +182,7 @@
     <Content Include="Image\Logo image 1.jpg" />
     <Content Include="Image\Logo image 2.jpg" />
     <Content Include="bookingAndReservations.aspx" />
+    <Content Include="ListAllGuestAllRoom.aspx" />
     <Content Include="ListAllGuestOneRoom.aspx" />
     <Content Include="login.aspx" />
     <Content Include="AdministratorMainPage.aspx" />
@@ -181,6 +193,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="PreviewMainPage.aspx" />
     <Content Include="ReportingModuleMainPage.aspx" />
     <Content Include="RoomOccupancy.aspx" />
     <Content Include="ROPView.aspx" />
@@ -221,6 +234,11 @@
     <Content Include="StaffManagementDelete.aspx" />
     <Content Include="StaffManagementMainPage.aspx" />
     <Content Include="StaffManagementUpdate.aspx" />
+    <Content Include="UpdateGuestProfile.aspx" />
+    <Content Include="UpdateHousekeepingReport.aspx" />
+    <Content Include="UpdateListOfGuestAllRoom.aspx" />
+    <Content Include="UpdateROReport.aspx" />
+    <Content Include="UpdateStatusReport.aspx" />
     <Content Include="UserAccountChangePassword.aspx" />
     <Content Include="UserAccountManagementMainPage.aspx" />
     <Content Include="UserAccountNewAccount.aspx" />
@@ -284,6 +302,76 @@
       <DependentUpon>AuditLogData.aspx</DependentUpon>
     </Compile>
     <Compile Include="Classes\guest.cs" />
+    <Compile Include="DeleteGuestProfile.aspx.cs">
+      <DependentUpon>DeleteGuestProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteGuestProfile.aspx.designer.cs">
+      <DependentUpon>DeleteGuestProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteHousekeepingReport.aspx.cs">
+      <DependentUpon>DeleteHousekeepingReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteHousekeepingReport.aspx.designer.cs">
+      <DependentUpon>DeleteHousekeepingReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteListofGuestAllRoom.aspx.cs">
+      <DependentUpon>DeleteListofGuestAllRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteListofGuestAllRoom.aspx.designer.cs">
+      <DependentUpon>DeleteListofGuestAllRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteROReport.aspx.cs">
+      <DependentUpon>DeleteROReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteROReport.aspx.designer.cs">
+      <DependentUpon>DeleteROReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteStatusReport.aspx.cs">
+      <DependentUpon>DeleteStatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteStatusReport.aspx.designer.cs">
+      <DependentUpon>DeleteStatusReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditGuestProfile.aspx.cs">
+      <DependentUpon>EditGuestProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditGuestProfile.aspx.designer.cs">
+      <DependentUpon>EditGuestProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditHousekeepingReport.aspx.cs">
+      <DependentUpon>EditHousekeepingReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditHousekeepingReport.aspx.designer.cs">
+      <DependentUpon>EditHousekeepingReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditListOfGuestAllRoom.aspx.cs">
+      <DependentUpon>EditListOfGuestAllRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditListOfGuestAllRoom.aspx.designer.cs">
+      <DependentUpon>EditListOfGuestAllRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditROReport.aspx.cs">
+      <DependentUpon>EditROReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditROReport.aspx.designer.cs">
+      <DependentUpon>EditROReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditStatusReport.aspx.cs">
+      <DependentUpon>EditStatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditStatusReport.aspx.designer.cs">
+      <DependentUpon>EditStatusReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EndUserMainPage.aspx.cs">
       <DependentUpon>EndUserMainPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -307,6 +395,13 @@
     </Compile>
     <Compile Include="guestCheckOut.aspx.designer.cs">
       <DependentUpon>guestCheckOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Housekeeping.aspx.cs">
+      <DependentUpon>Housekeeping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Housekeeping.aspx.designer.cs">
+      <DependentUpon>Housekeeping.aspx</DependentUpon>
     </Compile>
     <Compile Include="HousekeepingManagementCreate.aspx.cs">
       <DependentUpon>HousekeepingManagementCreate.aspx</DependentUpon>
@@ -335,6 +430,13 @@
     </Compile>
     <Compile Include="HousekeepingManagementUpdate.aspx.designer.cs">
       <DependentUpon>HousekeepingManagementUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListAllGuestAllRoom.aspx.cs">
+      <DependentUpon>ListAllGuestAllRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListAllGuestAllRoom.aspx.designer.cs">
+      <DependentUpon>ListAllGuestAllRoom.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListAllGuestOneRoom.aspx.cs">
       <DependentUpon>ListAllGuestOneRoom.aspx</DependentUpon>
@@ -365,6 +467,13 @@
       <DependentUpon>ManagementUserMainPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="PreviewMainPage.aspx.cs">
+      <DependentUpon>PreviewMainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreviewMainPage.aspx.designer.cs">
+      <DependentUpon>PreviewMainPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReportingModuleMainPage.aspx.cs">
       <DependentUpon>ReportingModuleMainPage.aspx</DependentUpon>
@@ -437,6 +546,41 @@
       <DependentUpon>StaffManagementUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="UpdateGuestProfile.aspx.cs">
+      <DependentUpon>UpdateGuestProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateGuestProfile.aspx.designer.cs">
+      <DependentUpon>UpdateGuestProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateHousekeepingReport.aspx.cs">
+      <DependentUpon>UpdateHousekeepingReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateHousekeepingReport.aspx.designer.cs">
+      <DependentUpon>UpdateHousekeepingReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateListOfGuestAllRoom.aspx.cs">
+      <DependentUpon>UpdateListOfGuestAllRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateListOfGuestAllRoom.aspx.designer.cs">
+      <DependentUpon>UpdateListOfGuestAllRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateROReport.aspx.cs">
+      <DependentUpon>UpdateROReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateROReport.aspx.designer.cs">
+      <DependentUpon>UpdateROReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStatusReport.aspx.cs">
+      <DependentUpon>UpdateStatusReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateStatusReport.aspx.designer.cs">
+      <DependentUpon>UpdateStatusReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserAccountChangePassword.aspx.cs">
       <DependentUpon>UserAccountChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

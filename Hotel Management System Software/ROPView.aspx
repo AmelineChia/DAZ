@@ -25,6 +25,19 @@
                 <br />
                 <br />
                 <br />
+                <asp:Button ID="ButtonRORoom1000" runat="server" Height="34px" Text="Room 1000" Width="453px" />
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="ButtonRORoom1001" runat="server" Height="34px" OnClick="ButtonRORoom1001_Click" Text="Room 1001" Width="453px" />
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="ButtonRORoom1002" runat="server" Height="34px" Text="Room 1002" Width="453px" />
+                <br />
+                <br />
+                <br />
+                <asp:Button ID="ButtonRORoom1003" runat="server" Height="34px" Text="Room 1003" Width="453px" />
             </div>
             </div>
         </form>

@@ -10,69 +10,51 @@
 namespace Hotel_Management_System_Software {
     
     
-    public partial class ROPView {
+    public partial class DeleteStatusReport {
         
         /// <summary>
-        /// formc control.
+        /// formg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formc;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formg;
         
         /// <summary>
-        /// lblROPView control.
+        /// lblRSPView5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblROPView;
+        protected global::System.Web.UI.WebControls.Label lblRSPView5;
         
         /// <summary>
-        /// lblROPView3 control.
+        /// lblRSPView6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblROPView3;
+        protected global::System.Web.UI.WebControls.Label lblRSPView6;
         
         /// <summary>
-        /// ButtonRORoom1000 control.
+        /// lblDelete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonRORoom1000;
+        protected global::System.Web.UI.WebControls.Label lblDelete;
         
         /// <summary>
-        /// ButtonRORoom1001 control.
+        /// ButtonBTMM4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonRORoom1001;
-        
-        /// <summary>
-        /// ButtonRORoom1002 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonRORoom1002;
-        
-        /// <summary>
-        /// ButtonRORoom1003 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonRORoom1003;
+        protected global::System.Web.UI.WebControls.Button ButtonBTMM4;
     }
 }

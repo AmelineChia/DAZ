@@ -40,48 +40,165 @@ namespace Hotel_Management_System_Software {
         protected global::System.Web.UI.WebControls.Label lblROP;
         
         /// <summary>
-        /// ViewReport control.
+        /// lblRODailyReport control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ViewReport;
+        protected global::System.Web.UI.WebControls.Label lblRODailyReport;
         
         /// <summary>
-        /// CreateReport control.
+        /// lblRORoomType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CreateReport;
+        protected global::System.Web.UI.WebControls.Label lblRORoomType;
         
         /// <summary>
-        /// EditReport control.
+        /// lblRORoomStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EditReport;
+        protected global::System.Web.UI.WebControls.Label lblRORoomStatus;
         
         /// <summary>
-        /// DeleteReport control.
+        /// lblROComments1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DeleteReport;
+        protected global::System.Web.UI.WebControls.Label lblROComments1;
         
         /// <summary>
-        /// ButtonRTMM1 control.
+        /// lblROWeeklyReport control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonRTMM1;
+        protected global::System.Web.UI.WebControls.Label lblROWeeklyReport;
+        
+        /// <summary>
+        /// lblRORoomType1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRORoomType1;
+        
+        /// <summary>
+        /// lblRORoomStatus1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRORoomStatus1;
+        
+        /// <summary>
+        /// lblROComments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblROComments;
+        
+        /// <summary>
+        /// lblROMonthlyReport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblROMonthlyReport;
+        
+        /// <summary>
+        /// lblRORoomType2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRORoomType2;
+        
+        /// <summary>
+        /// lblRORoomStatus2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRORoomStatus2;
+        
+        /// <summary>
+        /// lblROComments2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblROComments2;
+        
+        /// <summary>
+        /// lblROAnnuallyReport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblROAnnuallyReport;
+        
+        /// <summary>
+        /// lblRORoomType3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRORoomType3;
+        
+        /// <summary>
+        /// lblRORoomStatus3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRORoomStatus3;
+        
+        /// <summary>
+        /// lblROComments3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblROComments3;
+        
+        /// <summary>
+        /// ButtonEditRO control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonEditRO;
+        
+        /// <summary>
+        /// ButtonBTMM16 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonBTMM16;
     }
 }

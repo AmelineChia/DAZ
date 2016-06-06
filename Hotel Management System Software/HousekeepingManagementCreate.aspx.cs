@@ -13,5 +13,10 @@ namespace Hotel_Management_System_Software
         {
 
         }
+
+        protected void tbxStaffLastName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

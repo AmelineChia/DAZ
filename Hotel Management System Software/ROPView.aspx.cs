@@ -11,7 +11,12 @@ namespace Hotel_Management_System_Software
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
+        }
 
+        protected void ButtonRORoom1001_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("RoomOccupancy.aspx");
         }
     }
 }

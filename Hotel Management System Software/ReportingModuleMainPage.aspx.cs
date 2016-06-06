@@ -16,12 +16,37 @@ namespace Hotel_Management_System_Software
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void ButtonLATGARR_Click(object sender, EventArgs e)
         {
 
+        }
+
+        protected void ButtonRSP_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("RSPView.aspx");
+        }
+
+        protected void ButtonHR_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Housekeeping.aspx");
+        }
+
+        protected void ButtonLATGARR_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("ListAllGuestOneRoom.aspx");
+        }
+
+        protected void ButtonROP_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ROPView.aspx");
+        }
+
+        protected void ButtonLATGIALLRR_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ListAllGuestAllRoom.aspx");
         }
     }
 }

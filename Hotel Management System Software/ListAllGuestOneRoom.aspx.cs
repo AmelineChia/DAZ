@@ -13,5 +13,20 @@ namespace Hotel_Management_System_Software
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ButtonEditGuestProfile_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EditGuestProfile.aspx");
+        }
+
+        protected void ButtonBTMM5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ReportingModuleMainPage.aspx");
+        }
     }
 }

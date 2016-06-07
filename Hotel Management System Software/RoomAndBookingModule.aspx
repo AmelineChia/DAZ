@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RoomAndBookingModule.aspx.cs" Inherits="Hotel_Management_System_Software.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RoomAndBookingModule.aspx.cs" Inherits="Hotel_Management_System_Software.RoomAndBookingModule" %>
 
 <!DOCTYPE html>
 
@@ -130,6 +130,12 @@
                     <td class="auto-style1">Number of Children Per Room</td>
                     <td class="auto-style2">
                         <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style1">&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:Button ID="btnUpdate" runat="server" Font-Names="Arial Black" OnClick="btnUpdate_Click" Text="UPDATE" />
                     </td>
                 </tr>
             </table>

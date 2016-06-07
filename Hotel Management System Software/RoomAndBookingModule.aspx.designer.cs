@@ -10,7 +10,7 @@
 namespace Hotel_Management_System_Software {
     
     
-    public partial class Login {
+    public partial class RoomAndBookingModule {
         
         /// <summary>
         /// form1 control.
@@ -128,5 +128,14 @@ namespace Hotel_Management_System_Software {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        
+        /// <summary>
+        /// btnUpdate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUpdate;
     }
 }

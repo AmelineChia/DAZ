@@ -9,21 +9,13 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 463px;
+            width: 273px;
         }
         .auto-style2 {
-            width: 401px;
+            width: 243px;
         }
         .auto-style3 {
-            width: 463px;
-            height: 31px;
-        }
-        .auto-style4 {
-            width: 401px;
-            height: 31px;
-        }
-        .auto-style5 {
-            height: 31px;
+            width: 264px;
         }
     </style>
 </head>
@@ -46,26 +38,57 @@
                 <br />
                 <br />
                 <br />
-                <div>
-                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" Width="892px">
-                        <Columns>
-                            <asp:BoundField ControlStyle-ForeColor="WhiteSmoke" DataField="RoomNumber" FooterStyle-ForeColor="WhiteSmoke" HeaderStyle-ForeColor="WhiteSmoke" HeaderText="Room Number" />
-                            <asp:BoundField ControlStyle-ForeColor="WhiteSmoke" DataField="RoomStatusType" FooterStyle-ForeColor="WhiteSmoke" HeaderStyle-ForeColor="WhiteSmoke" HeaderText="Room Status" />
-                            <asp:BoundField ControlStyle-ForeColor="WhiteSmoke" DataField="Date" FooterStyle-ForeColor="WhiteSmoke" HeaderStyle-ForeColor="WhiteSmoke" HeaderText="Date" />
-                            <asp:BoundField ControlStyle-ForeColor="WhiteSmoke" DataField="Comments" FooterStyle-ForeColor="WhiteSmoke" HeaderStyle-ForeColor="WhiteSmoke" HeaderText="Comments" />
-                        </Columns>
-                    </asp:GridView>
-                </div>
+                <table style="width:100%;">
+                    <tr>
+                        <td class="auto-style1">
+                            <asp:Label ID="lblRSRoomNumber" runat="server" Text="Room Number " Font-Bold="True" ForeColor="#CC33FF"></asp:Label>
+                        </td>
+                        <td class="auto-style2">
+                            <asp:Label ID="lblRSRoomStatus" runat="server" Text="Room Status " Font-Bold="True" ForeColor="#CC33FF"></asp:Label>
+                        </td>
+                        <td class="auto-style3">
+                            <asp:Label ID="lblRSDate" runat="server" Text="Date" Font-Bold="True" ForeColor="#CC33FF"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:Label ID="lblRSComments" runat="server" Text="Comments" Font-Bold="True" ForeColor="#CC33FF"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1">&nbsp;</td>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1">&nbsp;</td>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1">&nbsp;</td>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1">&nbsp;</td>
+                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
                 <br />
                 <br />
                 <br />
                 <br />
                 <br />
+                <asp:Button ID="ButtonEditRoomStatus" runat="server" Height="36px" Text="Edit Room Status" Width="453px" OnClick="ButtonEditRoomStatus_Click" />
                 <br />
                 <br />
                 <br />
                 <br />
-                <asp:Button ID="ButtonBTMM2" runat="server" Text="Back To Main Menu" Width="453px" />
+                <asp:Button ID="ButtonBTMM2" runat="server" Text="Back To Main Menu" Width="453px" Height="36px" OnClick="ButtonBTMM2_Click" />
             </div>
             </div>
         </form>

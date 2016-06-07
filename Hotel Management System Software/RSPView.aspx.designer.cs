@@ -40,13 +40,49 @@ namespace Hotel_Management_System_Software {
         protected global::System.Web.UI.WebControls.Label lblRSPView;
         
         /// <summary>
-        /// GridView1 control.
+        /// lblRSRoomNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.Label lblRSRoomNumber;
+        
+        /// <summary>
+        /// lblRSRoomStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRSRoomStatus;
+        
+        /// <summary>
+        /// lblRSDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRSDate;
+        
+        /// <summary>
+        /// lblRSComments control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRSComments;
+        
+        /// <summary>
+        /// ButtonEditRoomStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonEditRoomStatus;
         
         /// <summary>
         /// ButtonBTMM2 control.

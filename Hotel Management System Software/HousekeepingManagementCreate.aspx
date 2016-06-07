@@ -56,7 +56,7 @@
              <asp:Label ID="lblNewHousekeepingDescription" runat="server" Text="New Houskeeping Description" ForeColor="WhiteSmoke" Font-Size="Large" Font-Bold="true"></asp:Label>   
         </div>
         <div style="float:left; width: 140px; height: 25px">
-             <asp:TextBox ID="tbxStaffLastName" runat="server" Font-Size="Medium" Width="376px" Height="109px"></asp:TextBox>
+             <asp:TextBox ID="tbxStaffLastName" runat="server" Font-Size="Medium" Width="376px" Height="109px" OnTextChanged="tbxStaffLastName_TextChanged"></asp:TextBox>
         </div>
         <br />
         <br />

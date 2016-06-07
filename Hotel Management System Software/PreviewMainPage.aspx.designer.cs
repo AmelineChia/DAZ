@@ -10,78 +10,78 @@
 namespace Hotel_Management_System_Software {
     
     
-    public partial class ReportingModuleMainPage {
+    public partial class PreviewMainPage {
         
         /// <summary>
-        /// forme control.
+        /// formaa control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm forme;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formaa;
         
         /// <summary>
-        /// lblRMMP1 control.
+        /// lblPreview control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRMMP1;
+        protected global::System.Web.UI.WebControls.Label lblPreview;
         
         /// <summary>
-        /// lblRMMP control.
+        /// lblPreview1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRMMP;
+        protected global::System.Web.UI.WebControls.Label lblPreview1;
         
         /// <summary>
-        /// ButtonROP control.
+        /// ButtonPreviewROR control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonROP;
+        protected global::System.Web.UI.WebControls.Button ButtonPreviewROR;
         
         /// <summary>
-        /// ButtonRSP control.
+        /// ButtonPreviewRSR control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonRSP;
+        protected global::System.Web.UI.WebControls.Button ButtonPreviewRSR;
         
         /// <summary>
-        /// ButtonHR control.
+        /// ButtonPreviewHSR control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonHR;
+        protected global::System.Web.UI.WebControls.Button ButtonPreviewHSR;
         
         /// <summary>
-        /// ButtonLATGARR control.
+        /// ButtonPreviewLAGIAR control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonLATGARR;
+        protected global::System.Web.UI.WebControls.Button ButtonPreviewLAGIAR;
         
         /// <summary>
-        /// ButtonLATGIALLRR control.
+        /// ButtonPreviewLAGIALLRoom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonLATGIALLRR;
+        protected global::System.Web.UI.WebControls.Button ButtonPreviewLAGIALLRoom;
     }
 }

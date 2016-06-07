@@ -182,6 +182,7 @@
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="ReportingModuleMainPage.aspx" />
+    <Content Include="RoomAndBookingModule.aspx" />
     <Content Include="RoomOccupancy.aspx" />
     <Content Include="ROPView.aspx" />
     <Content Include="RSPView.aspx" />
@@ -372,6 +373,13 @@
     </Compile>
     <Compile Include="ReportingModuleMainPage.aspx.designer.cs">
       <DependentUpon>ReportingModuleMainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RoomAndBookingModule.aspx.cs">
+      <DependentUpon>RoomAndBookingModule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RoomAndBookingModule.aspx.designer.cs">
+      <DependentUpon>RoomAndBookingModule.aspx</DependentUpon>
     </Compile>
     <Compile Include="RoomOccupancy.aspx.cs">
       <DependentUpon>RoomOccupancy.aspx</DependentUpon>
